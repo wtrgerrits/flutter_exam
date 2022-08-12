@@ -29,8 +29,10 @@ class ProjectsListView extends StatelessWidget {
                   },
                   leading: Column(
                     children: [
-                      Image.asset('assets/' + state[index].image + '.jpg',
-                          width: 50, height: 50),
+                      Image.asset(
+                          'assets/pictures/' + state[index].image + '.jpg',
+                          width: 50,
+                          height: 50),
                     ],
                   ),
                   title: Text(state[index].name,

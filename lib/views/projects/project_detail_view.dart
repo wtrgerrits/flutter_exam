@@ -18,7 +18,7 @@ class ProjectViewDetail extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey, width: 15)),
-                child: Image.asset('assets/' + project.image + '.jpg'),
+                child: Image.asset('assets/pictures/' + project.image + '.jpg'),
               ),
               ListTile(
                   title: Text(project.name,
